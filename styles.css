@@ -105,24 +105,24 @@ main li:nth-of-type(3) svg g .st2{
 }
 
 main li:nth-of-type(2) svg g .st3{
-    fill:#F4C6A6; !important;
+    fill:#F4C6A6 !important;
 }
 
 main li:nth-of-type(3) svg g .st0{
-    fill:#844B24; !important;
+    fill:#844B24 !important;
 }
 
 main li:nth-of-type(3) svg g .st3{
-    fill:#BA8058; !important;
+    fill:#BA8058 !important;
 }
 
 
 main li:nth-of-type(1) svg g .st3,
 main li:nth-of-type(2) svg g .st0{
-    fill:#EAAA7F; !important;
+    fill:#EAAA7F !important;
 }
 
-main #Layer_1 {
+main .Layer_1, .logo {
     width: 170px ; 
     height: 170px ; 
 }
