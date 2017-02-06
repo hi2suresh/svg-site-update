@@ -83,9 +83,48 @@ footer {
 /*========================
 SVG Styles
 ==========================*/
+header svg:hover {
+    transition: transform 0.5s ease-out;
+    transform: scale(1.5);
+}
 .logo {
     width: 140px;
     height: 120px;
+}
+
+main li:nth-of-type(1) svg g .st1,
+main li:nth-of-type(2) svg g .st1,
+main li:nth-of-type(3) svg g .st1{
+    fill:#FBFEFF !important;
+}
+
+main li:nth-of-type(1) svg g .st2,
+main li:nth-of-type(2) svg g .st2,
+main li:nth-of-type(3) svg g .st2{
+    fill:#2D3339 !important;
+}
+
+main li:nth-of-type(2) svg g .st3{
+    fill:#F4C6A6; !important;
+}
+
+main li:nth-of-type(3) svg g .st0{
+    fill:#844B24; !important;
+}
+
+main li:nth-of-type(3) svg g .st3{
+    fill:#BA8058; !important;
+}
+
+
+main li:nth-of-type(1) svg g .st3,
+main li:nth-of-type(2) svg g .st0{
+    fill:#EAAA7F; !important;
+}
+
+main #Layer_1 {
+    width: 170px ; 
+    height: 170px ; 
 }
 
 #nav ul li:hover a{ 
